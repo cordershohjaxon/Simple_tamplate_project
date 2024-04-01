@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OnePowerSociety</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'home' %}">Bosh Sahifa</a> /
+        <a href="{% url 'main' %}">Asosiy qism</a> /
+        <a href="{% url 'about' %}">Saytimiz haqida</a> /
+        <a href="{% url 'salom' %}">Salom</a>
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>
